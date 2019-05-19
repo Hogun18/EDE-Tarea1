@@ -39,6 +39,7 @@ public final class Empleados extends Persona{
     
     public double calculaRetencion(){
         return this.Sueldo*0.10;
+        return this.Sueldo*0.05;
         
     }
     
