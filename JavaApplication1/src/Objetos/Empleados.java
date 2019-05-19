@@ -44,6 +44,8 @@ public final class Empleados extends Persona{
     
     public double calculaRetencion(boolean casado) {
         if (casado) {
+    public double calculaRetencion(boolean soltero) {
+        if (soltero) {
             return this.Sueldo*0.15;
         }else {
             return this.Sueldo*0.20;
